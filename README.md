@@ -1,4 +1,4 @@
-# 即时通讯架构设计方案(Instant Messaging Architecture Solution)
+# 自述文件
 
 ## 一、概述
 
