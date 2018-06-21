@@ -1,4 +1,4 @@
-# 自述文件
+# 用户授权方案
 
 ## 一、概述
 
@@ -32,32 +32,31 @@
 
 | **日期**   | **作者**     | **版本** | **备注说明**                   |
 |------------|------------  |----------|--------------------------------|
-| 2018/6/20  | xiexie1993   | V1.1     | 新建                           |
+| 2018/6/21  | xiexie1993   | V1.1     | 新建                           |
 
-## 三、目录结构
 
-~~~
+**当前文档版本**
 
-./                    根目录
-├─ Instant_Messaging_Solution             即时通讯系统类方案
-│  ├─ IM_socket_Architecture_Solution.md    基于socket的tcp即时通讯系统架构方案
-│  └─ ...              
-├─ User_Authentication_Solution           用户认证系统类方案
-│  ├─ Token_User_Auth_Solution.md           基于Token的用户认证系统架构方案
-│  └─ ...              
-├─ User_Authorization_Solution            用户授权类方案
-│  ├─ 
-│  └─ ...
-├─ README.md          自述文件
-└─ ...
+版本：V1.1
 
-~~~
+
+## 三、架构方案（解决方案）
+
+### 0、方案概述
+
++ 1.通用授权方式
+    + 最常用的授权方式，标准OAuth2授权协议
++ 2.隐式授权方式
+    * 又叫JS授权，如果你是单纯的页面应用（无服务器端），这是你的选择
++ 3.企业级授权方式
+    * 最直接的授权方式，用户名密码直接授权，由于这种授权方式会暴露用户密码给第三方
+
+### 1、
+
 
 ## 四、参考资料
 
-+ [1千用户与1千万用户的网站系统架构区别？](https://blog.csdn.net/zqftisson/article/details/51777042)
 + [权限管理——用户认证和用户授权](https://blog.csdn.net/xdd19910505/article/details/51926540/)
-+ [APP授权设计：如何让用户不反感并同意授权](http://baijiahao.baidu.com/s?id=1596638869187800507&wfr=spider&for=pc)
-+ [用户中心系统设计](https://www.cnblogs.com/tylercao/p/8053404.html)
-+ [授权机制](http://open.weibo.com/wiki/%E6%8E%88%E6%9D%83%E6%9C%BA%E5%88%B6%E8%AF%B4%E6%98%8E?sudaref=www.baidu.com&display=0&retcode=6102)
-+ [分布式架构之系统拆分](https://blog.csdn.net/zzz34k/article/details/52576731)
++ [用户授权说明及流程](http://open.iqiyi.com/lib/OAuth2.html)
++ [用户和角色:通用权限管理系统数据库表结构如何设计？](https://www.cnblogs.com/mannixiang/p/6664075.html)
++ [APP授权设计：如何让用户不反感并同意授权]()
