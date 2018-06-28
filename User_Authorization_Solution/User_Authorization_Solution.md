@@ -51,12 +51,29 @@
 + 3.企业级授权方式
     * 最直接的授权方式，用户名密码直接授权，由于这种授权方式会暴露用户密码给第三方
 
++ RBAC模型
+
++ Auth类认证
+
 ### 1、
 
 
 ## 四、参考资料
 
 + [权限管理——用户认证和用户授权](https://blog.csdn.net/xdd19910505/article/details/51926540/)
+
 + [用户授权说明及流程](http://open.iqiyi.com/lib/OAuth2.html)
+
 + [用户和角色:通用权限管理系统数据库表结构如何设计？](https://www.cnblogs.com/mannixiang/p/6664075.html)
-+ [APP授权设计：如何让用户不反感并同意授权]()
+
++ [APP授权设计：如何让用户不反感并同意授权](http://www.woshipm.com/pd/976417.html)
+
++ [权限系统与RBAC模型概述[绝对经典]](https://blog.csdn.net/yangwenxue_admin/article/details/73936803)
+
++ [比RBAC更好的权限认证方式（Auth类认证）](http://www.thinkphp.cn/topic/4029.html)
+
++ [OAuth2授权方式](https://blog.csdn.net/heyangyi_19940703/article/details/52458555)
+
++ [oauth2四种授权方式小结](https://segmentfault.com/a/1190000012332319)
+
++ [OAuth 授权的工作原理是怎样的？足够安全吗？](https://www.zhihu.com/question/19781476)
